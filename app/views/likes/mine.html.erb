@@ -1,0 +1,20 @@
+      <%current_user.photos.each do |photo|%>
+
+      <li><img src="<%=photo.image%>" width="200"></li>
+      <% photo.comments.each do |comment|%>
+
+      <li> <%=comment.body%></li>
+
+      <%end%>
+
+      <%end%>
+      <%current_user.photos.each do |photo|%>
+
+      <li><img src="<%=photo.image%>" width="200"></li>
+      <% photo.comments.each do |comment|%>
+
+      <li> <%=comment.body%></li>
+
+      <%end%>
+
+      <%end%>

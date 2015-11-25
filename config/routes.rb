@@ -27,6 +27,9 @@ Rails.application.routes.draw do
   get "/likes", :controller => "likes", :action => "index"
   get "/likes/:id", :controller => "likes", :action => "show"
 
+  #Read My Likes
+  get "/my_likes", :controller => "likes", :action => "mine"
+
   # UPDATE
   get "/likes/:id/edit", :controller => "likes", :action => "edit"
   post "/update_like/:id", :controller => "likes", :action => "update"
