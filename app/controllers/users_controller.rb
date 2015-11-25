@@ -5,7 +5,13 @@ class UsersController < ApplicationController
   end
 
   def show
-    @users = User.find(params[:id])
+
+
+
   end
+
+ # current_user.photos
+
+ # current_user.liked_photos
 
 end
