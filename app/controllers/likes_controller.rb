@@ -50,7 +50,7 @@ class LikesController < ApplicationController
 
   def mine
 
-    @
+
 
   end
 end

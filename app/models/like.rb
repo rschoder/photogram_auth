@@ -1,6 +1,6 @@
 class Like < ActiveRecord::Base
 
-  validates :user, :presence => :true, :uniqueness => (:scope => :photo)
+  validates :user_id, :presence => {:scope => :photo_id}
 
   validates :photo, :presence => :true
 
